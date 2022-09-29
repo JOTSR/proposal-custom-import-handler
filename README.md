@@ -2,11 +2,11 @@
 
 ## Status
 
-**Stage:** 0
+**Stage:**
 
 **Author:** [JOTSR](https://github.com/JOTSR)
 
-**Champions:** [JOTSR](https://github.com/JOTSR)
+**Champions:**
 
 ## Overview / Motivation
 
@@ -190,7 +190,8 @@ if (CustomImportHandler.nativeFor('css') && CustomImportHandler.for('css')) {
 ## FAQs
 
 - Should type property must use custom notation, mimetype notation, or a mixed ?
-- Sould datas passed in stream instead of Uint8Array or allow string (possibly optimisation issues) ?
+- Should datas passed in stream instead of Uint8Array or allow string (possibly optimisation issues) ?
+- Should handlers be parallelized ?
 - Handler declared in assert field, in a new field or with a new keyword ?
 - Should handler return a module block instead of an object, how to initialize it ?
 - When imports is made, during parse, during runtime, dureing runtime only with dynamic imports, can be realized outside of host runtime with "Hadler function API" implementation ?
